@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>DOM2</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <input type="text" placeholder="add">
+  <button onclick="addtodo()">Add todo!</button>
+
+  <script>
+    let ctr = 1;
+
+    function deleteTodo(index) {
+      const element = document.getElementById("todo-" + index);
+      element.parentNode.removeChild(element);
+    }
+    function addtodo () {
+      const value = document.querySelector("input").value;
+      const spanEl = document.createElement("span");
+      const buttonEl = document.createElement("button");
+
+      spanEl.innerHTML = value;
+      buttonEl.innerHTML = "Delete";
+
+      const divEl = document.createElement("div");
+      divEl.appendChild(spanEl);
+      divEl.appendChild(buttonEl);
+     
+
+      document.querySelector("body").appendChild(divEl);
+      ctr = ctr + 1;
+
+    }
+  </script>
+</body>
+
+</html>
