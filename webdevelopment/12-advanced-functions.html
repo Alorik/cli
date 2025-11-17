@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ADVANCED FUNCTIONS</title>
+  </head>
+  <body>
+    <script>
+      /*
+      function greeting() {
+        console.log('hello');
+      }
+      greeting();
+
+      const num = 2 ;
+      const function1 = function () {
+        console.log('hello2');
+      };
+      console.log(function1);
+      console.log(typeof function1 );
+      function1();
+
+      const object1 = {
+        num : 2 ,
+        fun : function () {
+          console.log('hello3');
+        }
+      };
+      object1.fun();
+
+      function display (param) {
+
+        console.log(param);
+      }
+      display(2); 
+
+      function run(param) {
+        param();
+      }
+      run(function () {
+        console.log('hello4');
+      }); */
+
+      /*
+      setTimeout(function() {
+        console.log('timeout');
+      }, 3000);       //Asynchronous Code - won't wait for a line to finish before going to the next
+
+
+      console.log('next line');
+
+      setInterval(function() {
+        console.log('interval');
+      },3000);
+
+      console.log('next line 2')
+
+      */
+
+      [
+        'make dinner',
+        'wash dishes',
+        'watch youtube'
+      ].forEach(function(value, index) {
+        if (value === 'wash dishes') {
+          return;  // it skips wash dishes
+        }
+        console.log(index);
+        console.log(value);
+      });
+
+      const arrowFunction = () => {
+        console.log('hello');
+      };
+      arrowFunction();
+
+
+
+    </script>
+  </body>
+</html>

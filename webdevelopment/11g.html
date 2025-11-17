@@ -1,0 +1,44 @@
+<html><head><title></title></head>
+<body>
+
+  <script>
+    const array = [2,4,5];
+    const result = [];
+    /*
+     for (let i = 0 ; i<=array.length -1 ; i++) {
+      result.push(array[i]+1);
+    }
+    console.log(result);
+    */
+    
+
+    function addOne(array) {
+      const result = [];
+    for (let i = 0 ; i<=array.length -1 ; i++) {
+      result.push(array[i]+1);
+    }
+    return result;
+    }
+
+    console.log(addOne([4,55,66]));
+
+    function addNum (array,num) {
+      const result1 = [];
+      for (let j=0 ; j<=array.length-1; j++){
+        result1.push(array[j]+num);
+      }
+      return result1;
+    }
+    console.log(addNum([2,4,6,7],3));
+
+    function addArray (array1,array2) {
+      const result2 = [];
+      for(let k = 0; k <= array1.length -1 ; k++) {
+        result2.push(array1[k] +array2[k]);
+      }
+      return result2;
+    }
+    console.log(addArray([2,3,5,6,5],[1,2,2,2,2]));
+  </script>
+</body>
+</html>

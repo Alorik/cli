@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ARRAYS AND LOOPS</title>
+  </head>
+  <body>
+    <script>
+      /*
+      const myarray = [2, 5, 7, 5];
+      console.log(myarray);
+      console.log(myarray[0]);
+
+      console.log(myarray.length);
+
+      myarray.push(100);
+      console.log(myarray);
+
+      myarray.splice(0, 1);
+      console.log(myarray)
+      
+      let i=1;
+      while () {
+        console.log
+      } *
+/*
+      const todolist = [
+        'make dinner' ,
+        'wash dishes' ,
+        'watch youtube'
+      ];
+      
+      for (let i = 0; i < todolist.length; i++) {
+        const value = todolist[i];
+        console.log(value);
+      }
+*/
+     /* 
+      const nums = [1, 2, 3];
+      let total = 0;
+      for(i=0; i<nums.length; i++ ) {
+        const num = nums[i];
+        total += num;
+      }
+      console.log(total);
+
+      const numsdoubled =[];
+
+      for(i=0; i<nums.length; i++ ) {
+        const num = nums[i]; 
+        numsdoubled.push(num * 2);
+      }
+      console.log(numsdoubled);
+      */
+
+      const array1 = [1,2,3];
+      const array2 = array1.slice();
+      array2.push(4);
+      console.log(array1);
+      console.log(array2);
+
+      const [firstvalue, secondvalue] = [1, 2, 3];
+
+      for (let i =1 ; i <= 10 ; i++) {
+        if(i === 3) {
+          continue ;
+        }
+        console.log(i);
+        if(i === 8) {
+          break;
+        }
+      }
+      
+      function doubleArray (nums) {
+        const numsdoubled =[];
+
+        for(i=0; i<nums.length; i++ ) {
+          const num = nums[i]; 
+          numsdoubled.push(num * 2); 
+      }
+      return numsdoubled;
+    }
+      console.log(doubleArray([1,2,3,4]));
+     
+    </script>
+
+  </body>
+</html>  

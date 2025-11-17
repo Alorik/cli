@@ -1,0 +1,128 @@
+.red-square {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+.title , .heading , .para , .name ,.dicription,.mutual{
+  font-family: arial;
+}
+.card{
+  border-width: 1px;
+  border-style: solid;
+  padding : 6px;
+  border-color: rgb(150, 150, 150);
+  margin-bottom: 50px;
+  width: 500px;
+}
+
+.youtube-card {
+  background-color: black;
+  height: 150px;
+  width: 360px;
+  margin-bottom: 50px;
+}
+.heading {
+  color: white;
+  padding : 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.para {
+  font-size: 15px;
+  color: rgb(161, 161, 161);
+  padding-left: 10px;
+}
+.bar {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin-top: 100px;
+  border-width: 6px;
+  border-width: 1px;
+  border-style: solid;
+  padding : 16px;
+  border-color: rgb(150, 150, 150);
+  margin-bottom: 50px;
+  width: 450px;
+  margin-bottom: 50px;
+  }
+
+.cati {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.textbox{
+  border: none;
+  font-size: 18px;
+  padding-left: 4px;
+}
+.tweet-button{
+  vertical-align: middle;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 80px;
+}
+.inline-block {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 50px;
+
+}
+.catoo{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.name{
+  font-weight: bold;
+  padding-left: 8px;
+  margin-bottom: 4px;
+}
+.mutual{
+  color: rgb(100, 100, 100);
+  padding-left: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.discription {
+  border: none;
+  background-color: rgb(24, 119, 245);
+  color: white;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  padding-bottom: 12px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 26px;
+  border-radius: 4px;
+}
+.div{
+  text-align: center;
+}
+.google {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+

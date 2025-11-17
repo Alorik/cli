@@ -1,0 +1,53 @@
+body{
+  font-family: arial;
+}
+
+.whole {
+  height: 50rem;
+  background: linear-gradient(135deg,rgb(147, 104, 104),rgb(166, 194, 166));
+}
+
+.heading {
+  
+  margin: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(71, 56, 56);
+}
+
+.todo-grid , .todo-input-grid {
+  display: grid;
+  grid-template-columns: 220px 140px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.todo-input-grid {
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+.name-input , .due-name-input{
+   font-size: 15px;
+   border-radius: 10px;
+   margin: 10px;
+   padding: 6px;
+}
+.add-button {
+  font-size: 15px;
+  background-color: rgb(6, 146, 6);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button {
+  font-size: 15px;
+  color: white;
+  background-color: rgb(174, 5, 5);
+  border: none;
+  padding-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
